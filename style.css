@@ -62,16 +62,20 @@ body{
 }
  
 
-
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
 .header{
     
     border:1px solid rgb(0, 0, 0);
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-   min-width:1200px;
+  
     margin:0 auto;
-    height:700px;
+    min-height: 700px;
+    max-width: 100%;
 }
 
 .header {
@@ -86,8 +90,9 @@ body{
 
 }
 .header_title{
+    font-family: 'Anton', sans-serif;
     border:0;
-    padding:50px ;
+ 
     font-size:150px;
     color:rgba(0, 0, 0, 0.459);
     text-align: center;
@@ -96,10 +101,10 @@ body{
 .header_link{
 
 display: flex;
-flex-direction: column;
+flex-direction: row;
 
 
-position:fixed;
+
 cursor: pointer;
  
   
@@ -110,10 +115,11 @@ cursor: pointer;
 
 
 .wrapper__title{
+    font-family: 'Courgette', cursive;
     font-size:50px;
-    color:rgb(255, 255, 255);
+    color:rgba(0, 0, 0, 0.712);
     text-align: center;
-    text-shadow: 2px 2px 4px rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
     border:1px solid rgba(255, 255, 255, 0);
     letter-spacing: 3px;
 }
@@ -160,9 +166,12 @@ text-align: center;
 }
 
 .card-title {
+    font-family: 'Courgette', cursive;
     font-size:30px;
-    color:rgba(255, 255, 255, 0.863);
+    color:rgba(0, 0, 0, 0.596);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
     text-align:center;
+    letter-spacing: 3px;
 }
 .perfimance-card{
     display:flex;
@@ -174,17 +183,48 @@ text-align: center;
 
 }
  .perf-title {
+    font-family: 'RocknRoll One', sans-serif;
+    letter-spacing: 3px;
     font-size:17px;
     color:rgba(255, 255, 255, 0.863);
     text-align:center;
 }
 
-footer{
-  
-    background:  #160000 ;
-        width:1170px;
-        height:40px;
-        margin:0 auto;
-        line-height: 40px;
-        color:darkgoldenrod;
+.footer{
+    background: rgba(255, 235, 205, 0.623);
 }
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+.footer-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-right: 180px;
+}
+
+.email{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+.tour-title{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 4px;
+    font-size: 22px;
+}
+.tour-list p{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    color:rgba(0, 0, 0, 0.767);
+}
+a{
+    text-decoration: none;
+}
+

@@ -22,15 +22,7 @@ new Swiper('.image-slider',{
 autoHeight: true,
 
 
-/*effect: 'fade',
-//дополнение к эфекту фэйд
-fadeEffect:{
-    //параленьная смена прозрачности
-    crossFade:true,
 
-},*/
-
-//эфект переворот
 effect:'flip',
 
 flipEffect:{
